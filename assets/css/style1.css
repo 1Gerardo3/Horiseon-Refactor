@@ -8,7 +8,7 @@ body {
   background-color: #d9dcd6;
 }
 
-header {
+header { 
   display: inline-block;
   flex: 1 0 100px;
   padding: 15px 20px;
@@ -18,7 +18,13 @@ header {
   color: #ffffff;
   font-size: 20px;
 }
-ul li {
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+li {
   display: inline-block;
   padding: 8px;
   margin: 0 auto;
@@ -29,20 +35,17 @@ h1 {
   font-size: 48px;
   color: #d9dcd6;
 }
-#header {
+ul {
   list-style-type: none;
   display: inline-block;
   margin-left: 25px;
 }
 
-a {
-  color: #ffffff;
-  text-decoration: none;
-}
 
 p {
-  font-size: 16px;
-}
+  display: inline;
+  font-size: 16px;}
+
 
 #hero {
   height: 800px;
@@ -63,7 +66,7 @@ p {
   margin-left: 25px;
 }
 
-.content {
+main {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
@@ -77,7 +80,7 @@ h2 {
   font-size: 36px;
 }
 
-.benefits {
+aside {
   display: block;
   margin: 10px auto;
   color: #ffffff;
@@ -91,6 +94,7 @@ h2 {
 }
 
 h3 {
+  padding: 15px;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -130,3 +134,18 @@ footer {
   text-align: center;
   font-size: 20px;
 }
+
+
+/*Gave all the tags sematic elements 
+Body
+Header 
+main 
+Aside
+Put all the tags that belong together h1,h2,h3,a,p,li so that each tag can 
+work in its group with out having to do multiple lines of repeating code.
+made sure the elements follow a logical structure independent of styling and positioning
+also made sure the style sheet was up to date with the html file. on elements,classes and id's.
+add the "alt" function to the image so others can also under stan the image.
+and to finish up i put the web-page on-line. deployed.
+
+

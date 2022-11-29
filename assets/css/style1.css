@@ -3,18 +3,17 @@
   padding: 0;
   margin: 0;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-  "Lucida Sans", Arial, sans-serif,"Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+    "Lucida Sans", Arial, sans-serif, "Gill Sans", "Gill Sans MT", Calibri,
+    "Trebuchet MS";
 }
 
 body {
   background-color: #d9dcd6;
-
 }
 
-header { 
+header {
   display: flex;
   justify-content: flex-end;
-
   background-color: #2a607c;
   color: #ffffff;
   font-size: 20px;
@@ -28,12 +27,10 @@ a {
 }
 
 .nav-bar {
-display: inline-flex;
-padding: 8px;
- margin: 0 auto;
+  display: inline-flex;
+  padding: 8px;
+  margin: 0 auto;
 }
-
-
 
 h1 {
   display: inline-flex;
@@ -47,11 +44,10 @@ ul {
   margin-left: 25px;
 }
 
-
 p {
   display: inline;
-  font-size: 16px;}
-
+  font-size: 16px;
+}
 
 #hero {
   height: 800px;
@@ -112,7 +108,6 @@ h3 {
   color: #ffffff;
 }
 
-
 footer {
   padding: 30px;
   clear: both;
@@ -120,7 +115,7 @@ footer {
   font-size: 20px;
 }
 
-
+/* 
 /*Gave all the tags sematic elements 
 Body
 Header 
@@ -132,6 +127,4 @@ made sure the elements follow a logical structure independent of styling and pos
 also made sure the style sheet was up to date with the html file. on elements,classes and id's.
 add the "alt" function to the image so others can also under stan the image.
 and to finish up i put the web-page on-line. deployed.
-add class main nad consolidated the style.
-
-
+add class main nad consolidated the style. */

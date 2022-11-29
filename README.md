@@ -1,10 +1,15 @@
 # Horiseon-Refactor
+
 ## Project status:
-Finished
+Finished... Working
+
+## URL:
+https://1gerardo3.github.io/Horiseon-Refactor/
 
 ## Description:
-This page has working links on the nav bar.
 
+
+## Usage: 
 
 
 ## Support: 
@@ -13,3 +18,6 @@ at 1gerardo3@gmail.com.
 
  ## License:
  NA
+
+## Screenshot:
+<img src="./assets/images/horiseon screenshot.png" alt="horiseon webpage"/>

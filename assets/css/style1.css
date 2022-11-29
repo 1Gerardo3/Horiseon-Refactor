@@ -9,9 +9,10 @@ body {
 }
 
 header { 
-  display: inline-block;
-  flex: 1 0 100px;
-  padding: 15px 20px;
+  display: flex;
+
+  justify-content: flex-end;
+
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif,"Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
   background-color: #2a607c;
@@ -20,18 +21,27 @@ header {
 }
 
 a {
+  display: flex;
+  justify-items: flex-end;
   color: #ffffff;
   text-decoration: none;
 }
 
-li {
-  display: inline-block;
-  padding: 8px;
+.nav-bar {
+
+border: red;
+display: inline-flex;
+
+padding: 8px;
   margin: 0 auto;
 
 }
+
+
+
 h1 {
-  display: inline-block; 
+  display: inline-flex;
+  justify-content: flex-start;
   font-size: 48px;
   color: #d9dcd6;
 }
